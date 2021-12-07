@@ -93,7 +93,6 @@ class _arrayListState extends State<arrayList> {
                         _peopleContect[index]["Image"],
                       ),
                       //child: Text(_peopleContect[index]["Name"][0]),
-                      //child: backgroundImage()
                       //Image.asset(_peopleContect[index]["Image"],),
                     ),
                     title: Text(_peopleContect[index]["Name"]),
