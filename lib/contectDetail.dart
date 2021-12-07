@@ -20,7 +20,7 @@ class _contectDeatailState extends State<contectDeatail> {
       ),
       body: Column(
         children: [
-          Image.asset("${useList["Image"]}"),
+          Image.asset("${useList["Image"]}",height: 100,),
           SizedBox(
             height: 10,
           ),
