@@ -19,21 +19,31 @@ class _contectDeatailState extends State<contectDeatail> {
         centerTitle: true,
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset("${useList["Image"]}",height: 100,),
-          SizedBox(
-            height: 10,
-          ),
-          Text(
-            "${useList["Name"]}",
-            style: TextStyle(
-              fontSize: 30,
+          Center(
+            child: Image.asset(
+              "${useList["Image"]}",
+              height: 400,
             ),
           ),
           SizedBox(
             height: 10,
           ),
-          Text("${useList["Phone"]}"),
+          Center(
+            child: Text(
+              "${useList["Name"]}",
+              style: TextStyle(
+                fontSize: 30,
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Center(
+            child: Text("${useList["Phone"]}"),
+          )
         ],
       ),
     );
