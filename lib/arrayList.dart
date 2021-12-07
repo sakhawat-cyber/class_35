@@ -87,13 +87,13 @@ class _arrayListState extends State<arrayList> {
                                   contectDeatail(_peopleContect[index])));
                     },
                     leading: CircleAvatar(
+                      radius: 30.0,
                       backgroundColor: Colors.green[30],
-                      //child: Text(_peopleContect[index]["Name"][0]),
-
-                      child: Image.asset(
+                      backgroundImage: ExactAssetImage(
                         _peopleContect[index]["Image"],
-                        height: 100,
                       ),
+                      //child: Text(_peopleContect[index]["Name"][0]),
+                      //Image.asset(_peopleContect[index]["Image"],),
                     ),
                     title: Text(_peopleContect[index]["Name"]),
                     subtitle: Text(_peopleContect[index]["Phone"]),
